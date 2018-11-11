@@ -1,0 +1,253 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:300);
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    margin: 0;
+    height: 100%;
+    background-image: url(../imagens/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-weight: bold;
+    color: white;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#b1 {
+    margin-top: 1em;
+}
+.bts {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #0C5;
+
+    font-size: 24px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+
+    margin: 1em auto;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    padding: 20px 0;
+    width: 220px;
+    height: 75px;
+
+    background: #0D6;
+    border: 1px solid #0D6;
+    color: #FFF;
+    overflow: hidden;
+
+    transition: all 0.5s;
+    margin-top: 0%;
+    display: block;
+}
+
+.bts:hover,
+.bts:active {
+    text-decoration: none;
+    color: #0C5;
+    border-color: #0C5;
+    background: #FFF;
+}
+
+.bts span {
+    display: inline-block;
+    position: relative;
+    padding-right: 0;
+
+    transition: padding-right 0.5s;
+}
+
+.bts span:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: -18px;
+    opacity: 0;
+    width: 10px;
+    height: 10px;
+    margin-top: -10px;
+
+    background: rgba(0, 0, 0, 0);
+    border: 3px solid #FFF;
+    border-top: none;
+    border-right: none;
+
+    transition: opacity 0.5s, top 0.5s, right 0.5s;
+    transform: rotate(-45deg);
+}
+
+.bts:hover span,
+.bts:active span {
+    padding-right: 30px;
+}
+
+.bts:hover span:after,
+.bts:active span:after {
+    transition: opacity 0.5s, top 0.5s, right 0.5s;
+    opacity: 1;
+    border-color: #0C5;
+    right: 0;
+    top: 50%;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-family: "Nunito", sans-serif;
+}
+
+#b2 {
+    display: block;
+    margin-top: 0%;
+    background: #76daff;
+    border: 1px solid #76daff;
+    font-size: 140%;
+}
+
+#b2:hover,
+#b2:active {
+    text-decoration: none;
+    color: #76daff;
+    border-color: #76daff;
+    background: #FFF;
+}
+
+#b2:hover span:after,
+#b2:active span:after {
+    transition: opacity 0.5s, top 0.5s, right 0.5s;
+    opacity: 1;
+    border-color: #76daff;
+    right: 0;
+    top: 50%;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    width: 99vw;
+    bottom: 0;
+    opacity: 0.55;
+    font-size: 10px;
+    color: #202121;
+}
+
+#b3 {
+    display: block;
+    margin-top: 0%;
+    background: #ccb000;
+    border: 1px solid #ccb000;
+    font-size: 140%;
+}
+
+#b3:hover,
+#b3:active {
+    text-decoration: none;
+    color: #ccb000;
+    border-color: #ccb000;
+    background: #FFF;
+}
+
+#b3:hover span:after,
+#b3:active span:after {
+    transition: opacity 0.5s, top 0.5s, right 0.5s;
+    opacity: 1;
+    border-color: #ccb000;
+    right: 0;
+    top: 50%;
+}
+
+body,
+html {
+    min-height: 100%;
+}
+
+.menu {
+    height: 100vh;
+    transition: 1s linear;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo {
+    transition: 1s linear;
+    color: black;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+#config {
+    float: right;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    justify-content: flex-end;
+}
+
+#inf{
+    height: 5vh;
+    float: right;
+    padding: 0.1em;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin: 0.3em;
+}
+
+#inf:hover {
+    border-radius: 50%;
+    top: 1px;
+    box-shadow: 0 2px 2px #777;
+}
+
+.modal{
+    transition: 1s linear;
+}
+
+.musIcon{
+    height: 5vh;
+    float: right;
+    padding: 0.2em;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin: 0.3em;
+}
+
+.musIcon:hover {
+    border-radius: 50%;
+    top: 1px;
+    box-shadow: 0 2px 2px #777;
+}
+
+#modall{
+    transition: all .3s ease-in-out;
+}
+
+#activated{
+    display: none;
+}
+
+.tingle-modal__close{
+    display: none;
+}
+
+#minimizar{
+    display: none;
+}
+

@@ -1,0 +1,103 @@
+#credits{
+    text-align: center;
+    transition: 2s linear;
+}
+#credits h2{
+    font-family: 'Nunito';
+    color: black;
+    transition: 2s linear;
+}
+#credits h4{
+    margin-top: 0.1em;
+}
+header {
+    background-color: #f5f5f5;
+    padding: 1vh;
+    text-align: center;
+    font-size: 4vh;
+    color: white;
+}
+#modalBody{
+    text-align: center;
+    padding: 0.5em;
+    background-color: white;
+}
+/* botão do modal*/
+.btz {
+    display: block;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #0C5;
+
+    font-size: 1.2em;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    padding: 10px 0;
+    width: 220px;
+    height: 3%;
+
+    background: #0D6;
+    border: 1px solid #0D6;
+    color: #FFF;
+    overflow: hidden;
+
+    transition: all 0.5s;
+    margin-top: 0%;
+    display: block;
+}
+
+.btz:hover,
+.btz:active {
+    text-decoration: none;
+    color: #0C5;
+    border-color: #0C5;
+    background: #FFF;
+}
+
+.btz span {
+    display: inline-block;
+    position: relative;
+    padding-right: 0;
+
+    transition: padding-right 0.5s;
+}
+
+
+.btz span:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -18px;
+    opacity: 0;
+    width: 10px;
+    height: 10px;
+    margin-top: -10px;
+
+    background: rgba(0, 0, 0, 0);
+    border: 3px solid #FFF;
+    border-top: none;
+    border-right: none;
+
+    transition: opacity 0.5s, top 0.5s, right 0.5s;
+    transform: rotate(-45deg);
+}
+
+.btz:hover span,
+.btz:active span {
+    padding-right: 30px;
+}
+
+.btz:hover span:after,
+.btz:active span:after {
+    transition: opacity 0.5s, top 0.5s, right 0.5s;
+    opacity: 1;
+    border-color: #0C5;
+    right: 0;
+    top: 50%;
+}

@@ -1,0 +1,53 @@
+#modal-open {
+  display: block;
+}
+#modal-close {
+  display: none;
+}
+.abrirCreditos {
+  width: 6%;
+  display: inline-block;
+}
+
+.girar{
+    position: relative;
+    animation: girar .5s ease-in-out 0s;
+    animation-fill-mode: forwards;
+}
+.fade {
+  position: relative;
+  animation: fadeIn .9s ease-in-out 0s;
+}
+
+#borda {
+  border-top: 1px solid #e9ecef;
+}
+#descricao {
+  margin-left: 4.8em;
+  display: none;
+}
+@keyframes girar {
+  from {
+  	transform: rotate(0deg);
+  	 }
+  to {
+  	transform: rotate(90deg);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    background:rgba(0,0,0,.7);
+  }
+  100% {
+    background:rgba(0,0,0,.0);
+  }
+}
