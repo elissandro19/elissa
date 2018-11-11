@@ -3,7 +3,7 @@
 body {
 	margin: 0;
 	display: block;
-	background-image: url(../imagens/fundo.jpg);
+	background-image: url(/imagens/fundo.jpg);
 	background-size: cover;
 	background-color: white;
 }
