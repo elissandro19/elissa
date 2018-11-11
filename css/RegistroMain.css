@@ -3,7 +3,7 @@
 body {
 	margin: 0;
 	display: block;
-	background-image: url(http://elissandro19.github.io/imagens/fundo.jpg);
+	background-image: http://elissandro19.github.io/imagens/fundo.jpg;
 	background-size: cover;
 	background-color: white;
 }
