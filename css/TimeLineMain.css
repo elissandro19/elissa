@@ -126,15 +126,15 @@ body {
     i {
       margin-right: 5px;
     }
-    .timeline-content-info-title, .data {  
+    .timeline-content-info-title, .data {
       width: calc(50% - 2px);
       display: inline-block;
     }
     @media (max-width: 500px) {
-      .timeline-content-info-title, .data {  
+      .timeline-content-info-title, .data {
         display: block;
         width:100%;
-      } 
+      }
     }
   }
   .lista {
@@ -246,7 +246,7 @@ body {
   }
   #voltar {
   width: 3em;
-  position: absolute;
+  position: fixed;
   top: 1.5%;
   left: 2%;
 }

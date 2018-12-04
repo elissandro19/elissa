@@ -1,0 +1,79 @@
+body {
+    font-family: Open Sans;
+    background-image: url(../imgs/fundo.jpg);
+}
+
+h1 {
+    text-align: center;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 40%;
+    margin-top: 2em;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#container {
+    transform: translateY(15%);
+    text-align: center;
+    margin:auto;
+    padding: 0 25px 40px 10px;
+    border-radius:5px;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+}
+li{
+    margin: 0.3em;
+}
+#voltar {
+    width: 3em;
+    position: absolute;
+    top: 1.5%;
+    left: 2%;
+}
+#fim{
+    display: none;
+}
