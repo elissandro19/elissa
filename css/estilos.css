@@ -26,6 +26,9 @@
   margin-left: 4.8em;
   display: none;
 }
+#b3 {
+  background: #e83e8c;
+}
 @keyframes girar {
   from {
   	transform: rotate(0deg);

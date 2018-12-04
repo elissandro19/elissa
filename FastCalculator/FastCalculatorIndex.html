@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="../modal/tingle.min.css">
+    <link rel="stylesheet" href="FastCalculatorMain.css">
+    <link rel="icon" href="../imagens/the-sum-of2.png">
+    <title>Fast Calculator</title>
+  </head>
+
+  <body>
+    <a href="../index.html"><img src="../imagens/the-sum-of2.png" id="voltar"></a>
+    <header id="cabecalho">
+      <h1 id="title">FAST CALCULATOR</h1>
+    </header>
+    <div id="corpo">
+    <h2 id="tutorial">Escreva a resposta do calculo em <span id="sgs">8</span> segundos:</h2>
+    <h2 id="calculo_atual">x + y = z</h2>
+
+    <div class="centered">
+      <div class="group">
+        <input type="number" id="name" required="required" autocomplete="off">
+        <label for="name">Resultado...</label>
+      <div class="bar" id="barra"></div>
+    </div>
+    <div id="contador">
+    <h3 id="segs">Tempo restante: <span id="segundos_restantes">8</span></h3>
+    <h3 id="pts">Pontuação: <span id="pontuacao_atual">0</span></h3>
+  </div>
+  <button id="ButRes" class="bts">Jogar</button>
+</div>
+<h3 id="num_questoes">1/10</h3>
+  </div>
+ <script src="../modal/tingle.min.js"></script>
+<script src="FastCalculatorScript.js"></script>
+  </body>
+
+</html>
