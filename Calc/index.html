@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<h1>CALCULADORA</h1>
+	<div class="main">
+		<form name="form">
+			<input disabled="disabled" class="textview" name="textview">
+		</form>
+		<table>
+			<tr>
+				<td><input class="btt" type="button" value="C" onclick="limpar()"></td>
+				<td><input class="btt" type="button" value="<" onclick="voltar()"></td>
+				<td><input class="btt" type="button" value="/" onclick="inserir_num('/')"></td>
+				<td><input class="btt" type="button" value="x" onclick="inserir_num('*')"></td>
+			</tr>
+			<tr>
+				<td><input class="btt" type="button" value="7" onclick="inserir_num(7)"></td>
+				<td><input class="btt" type="button" value="8" onclick="inserir_num(8)"></td>
+				<td><input class="btt" type="button" value="9" onclick="inserir_num(9)"></td>
+				<td><input class="btt" type="button" value="-" onclick="inserir_num('-')"></td>
+			</tr>
+			<tr>
+				<td><input class="btt" type="button" value="4" onclick="inserir_num(4)"></td>
+				<td><input class="btt" type="button" value="5" onclick="inserir_num(5)"></td>
+				<td><input class="btt" type="button" value="6" onclick="inserir_num(6)"></td>
+				<td><input class="btt" type="button" value="+" onclick="inserir_num('+')"></td>
+			</tr>
+			<tr>
+				<td><input class="btt" type="button" value="1" onclick="inserir_num(1)"></td>
+				<td><input class="btt" type="button" value="2" onclick="inserir_num(2)"></td>
+				<td><input class="btt" type="button" value="3" onclick="inserir_num(3)"></td>
+				<td rowspan="5"><input id="igual" class="btt" type="button" value="=" onclick="resposta()"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input id="zero" class="btt" type="button" value="0" onclick="inserir_num(0)"></td>
+				<td><input class="btt" type="button" value="." onclick="inserir_num('.')"></td>
+			</tr>
+		</table>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:300);
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("fundo.jpg");
+}
+.btt {
+	width: 65px;
+	height: 65px;
+	font-size: 40px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	color: white;
+	background-color: #607d8b;
+}
+.textview {
+	width: 272px;
+	margin: 5px;
+	font-size: 40px;
+	padding: 5px;
+	border: solid 1px black;
+	color: black;
+}
+#zero {
+	width: 140px;
+}
+#igual {
+	height: 140px;
+	background-color: #0D6;
+}
+.main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%)translateY(-50%);
+	border: solid 2px black;
+	padding: 10px;
+}
+h1 {
+	text-align: center;
+	font-family: "Nunito", sans-serif;
+	font-size: 3em;
+	font-weight: 500;
+	padding-top: 20px;
+}
